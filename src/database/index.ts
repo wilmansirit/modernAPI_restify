@@ -2,6 +2,7 @@ import { Connection, createConnection } from 'typeorm';
 import { DatabaseConfiguration } from './databaseConfiguration';
 
 export class DatabaseProvider {
+
     private static connection: Connection;
     private static configuration: DatabaseConfiguration;
 
