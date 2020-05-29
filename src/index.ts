@@ -1,4 +1,5 @@
-import {ApiServer} from './server';
+// Archivo de entrada
+import { ApiServer } from './server';
 
 const server = new ApiServer();
-server.start( 3000 );
+server.start(3000);
