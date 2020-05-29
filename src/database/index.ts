@@ -24,7 +24,10 @@ export class DatabaseProvider {
             username,
             password,
             database,
-            extra: { ssl },
+            extra:
+            {
+                ssl
+            },
             entities: [],
             autoSchemaSync: true
         } as any);
