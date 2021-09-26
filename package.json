@@ -19,8 +19,10 @@
   "dependencies": {
     "@types/morgan": "^1.9.0",
     "@types/restify": "^8.4.2",
+    "ansi-regex": "^6.0.1",
     "dotenv": "^8.2.0",
     "find-my-way": "^4.3.3",
+    "highlight": "^0.2.4",
     "morgan": "^1.10.0",
     "mysql2": "^2.1.0",
     "restify": "^8.5.1",
