@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "compile": "./node_modules/typescript/bin/tsc",
-    "start": "npm run compile && node ./dist/indexjs",
+    "start": "npm run compile && node ./dist/index.js",
     "dev": "nodemon --exec ts-node ./app/index.ts"
   },
   "keywords": [],
